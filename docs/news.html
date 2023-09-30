@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="robots" content="noindex">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BRENDA'S GLASS EXPRESSION | COMOX VALLEY</title>
+  <!-- introduction of the site-->
+  <link rel="stylesheet" href="Style/news.css">
+  <link rel="stylesheet" href="Style/headerfooter.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
+  <!-- F22 DGL 103 CVS1 - Josmi Jose - Assignment G-->
+  <!-- added script for header navigation-->
+  <script>
+    function showNav() {
+      var element = document.getElementById("nav-items");
+      element.classList.toggle("show-items");
+    }
+  </script>
+</head>
+
+<body onload="addClickListener()">
+  <!-- Header and navigation-->
+  <header>
+    <div class="headerNavs">
+      <a href=""><img class="logo" src="images/logo.png" alt=""></a>
+      <label class="headerLabel">&nbsp;Brenda's Glass Expression</label>
+    </div>
+    <nav>
+      <ul id="nav-items">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="ourservices.html">Shop</a></li>
+        <li class="active"><a href="news.html">Offers & News</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+      </ul>
+      <a class="toggle" onclick="showNav()"><i class="fa fa-bars"></i></a>
+    </nav>
+  </header>
+
+  <div class="content">
+    <!-- Offer details-->
+    <div class="coupon">
+      <img src="images/work-seven.jpg" alt="stained glass work" style="width: 100%">
+      <div class="containerOffers" style="background-color: white">
+        <h3><b>20% OFF YOUR PURCHASE</b></h3>
+        <p>
+          <small>*Conditions apply. We provide a 50% discount on the first
+            purchase together with welcome gifts and a 20% discount on
+            subsequent purchases.</small>
+        </p>
+      </div>
+      <div class="containerOffers">
+        <p>Use Promo Code: <span class="promo">BGE232</span></p>
+        <p class="expire">Expires: Jan 03, 2023</p>
+      </div>
+    </div>
+    <!-- added news section-->
+    <div class="containerNews" id="idContainerNews">
+      <h2>News</h2>
+      <button id="btnAddNews">Add News</button>
+      <div class="news">
+        <p class="newsTransform">
+          Light mills are now available in our store<i> (27 nov 2022)</i>.
+        </p>
+        <p class="newsTransform">
+          The 2023 New Year's sale is currently underway. Grab your offers for
+          glass designs<i> (20 nov 2022)</i>.
+        </p>
+        <p class="newsTransform">
+          In the interim, the following adjustments have been made: 10 a.m. to
+          2 p.m., Tuesday through Saturday. There can only be two clients in
+          the store at once. With the aid of our floor decals, maintain social
+          distance. Please refrain from handling the goods; we will gather
+          what you require. All of you are appreciated for your help and
+          tolerance.<i> (20 July 2021)</i>.
+        </p>
+        <p class="newsTransform">
+          In order to express our gratitude to all the wonderful people who
+          are working so hard to keep us fed, healthy, and safe, we have put
+          together a "Heart Window." Much obliged!.<i> (20 July 2020)</i>.
+        </p>
+        <p class="newsTransform">
+          Due to the Easter holiday, we will be closed from April 10 to 13.
+          Our shortened business hours of 10 a.m. to 2 p.m., Tuesday through
+          Saturday, will resume on April 14. Orders placed over the phone and
+          by email are welcomed and sincerely appreciated.<i>
+            (20 April 2020)</i>.
+        </p>
+      </div>
+    </div>
+    <!-- veteran section
+    <div class="containerVeteran">
+      <img src="images/veteran.jpg" alt="veteran" class="imgVetersn">
+    </div>
+    added course section
+    <div class="containerCourse">
+     <p class="Course">
+          <b
+            ><em
+              >Please visit
+              <a href="https://www.jansglass.ca/" target="_blank"
+                >Jan's Glass By The Sea</a
+              >
+              for more information on stained glass courses.
+            </em></b
+          >
+        </p> 
+      <a href="https://www.jansglass.ca/" target="_blank"><img src="images/course.png" alt="Jan's glass by the sea"
+          class="imgJan"></a>
+    </div> -->
+  </div>
+  <!-- added footer section-->
+  <div class="footerAboutUS">
+    <div class="column">
+      <label class="footerHeading">Services</label>
+      <div>
+        <p>-Glassworking tools & Supplies</p>
+        <p>-Stained glass artwork and repairs</p>
+        <p>-Bevel Crystals & Nuggets</p>
+      </div>
+    </div>
+    <div class="column">
+      <label class="footerHeading">Contact Us</label>
+      <div>
+        <p>
+          <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;glassexp@shaw.ca
+        </p>
+        <p>
+          <i class="fa fa-mobile" aria-hidden="true" style="font-size: 25px"></i>&nbsp;250-339-7739
+        </p>
+        <p><i class="fa fa-fax" aria-hidden="true"></i>&nbsp;250-339-3303</p>
+        <p>
+          <i class="fa fa-home" aria-hidden="true"></i>&nbsp;2925 Comox Road,
+          Courtney, BC
+        </p>
+        <p>
+          <a href="https://www.facebook.com/profile.php?id=100057411821495&fref=ts" target="_blank"><i
+              class="fa fa-facebook-official" aria-hidden="true"></i></a>
+        </p>
+      </div>
+    </div>
+    <div class="column">
+      <label class="footerHeading">Bussiness Hours</label>
+      <div>
+        <p>Tue-Sat: 10.00am - 5.00pm</p>
+        <p>Sun & Mon: Closed</p>
+      </div>
+    </div>
+  </div>
+  <!-- copyright footer -->
+  <footer>
+    <small><em>"This is a fictional website that was designed and coded as an
+        educational exercise. It is not intended to be seen outside of the
+        class environment. None of the content and images were approved by the
+        business owner."</em></small>
+  </footer>
+  <div class="overlay"></div>
+  <div class="prompt" style="display: none">
+    <p>Enter the news content:</p>
+    <input type="text" id="txtNews">
+    <button id="btnNewsSubmit">Submit</button>
+  </div>
+  <!-- Added script tag -->
+  <script src="app.js"></script>
+</body>
+
+</html>

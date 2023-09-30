@@ -1,0 +1,172 @@
+/* header and footer css */
+header {
+  padding: 2px 0;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #355835;
+}
+
+.headerNavs {
+  width: 70%;
+  padding: 1%;
+}
+
+.logo {
+  width: 10%;
+}
+
+nav {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-top: 4%;
+  width: 25%;
+}
+
+nav .toggle {
+  align-self: flex-end;
+  position: absolute;
+  cursor: pointer;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  display: none;
+}
+
+nav ul li a {
+  color: white;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 1%;
+  padding: 1%;
+}
+
+nav .toggle {
+  align-self: flex-end;
+  position: absolute;
+  cursor: pointer;
+  right: 35px;
+  top: 30%;
+}
+
+nav ul li a,
+.headerLabel {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.show-items {
+  display: flex;
+}
+
+.headerLabel {
+  display: inline;
+  position: absolute;
+  top: 45px;
+  font-size: 40px;
+  font-family: 'Lobster', cursive;
+}
+
+.fa-bars {
+  color: white;
+}
+
+.active {
+  background-color: #607d60;
+  color: white;
+  border-radius: 10px;
+}
+
+/* footer css */
+
+.footerAboutUS {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 98%;
+  background-color: #516851;
+  ;
+  padding: 1%;
+  color: white;
+}
+
+.footerHeading {
+  font-weight: bold;
+}
+
+.footerAboutUS p {
+  font-size: smaller;
+}
+
+.column {
+  flex: 33.33%;
+  margin-left: 8%;
+}
+
+footer {
+  background-color: #355835;
+  text-align: center;
+  color: #ffffff;
+  width: 100%;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px) {
+  nav {
+    width: 38%;
+  }
+
+  .headerLabel {
+    top: 3px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .headerLabel {
+    font-size: 20px;
+    top: 5px
+  }
+
+  header {
+    display: grid;
+  }
+
+  nav {
+    width: 91%;
+  }
+  nav ul li {
+    padding-left: 3%;
+    padding-bottom: 2%;
+  }
+
+  .footerAboutUS {
+    display: grid;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  nav ul li {
+    padding-right: 8px;
+  }
+
+  nav .toggle {
+    display: none;
+  }
+
+}
